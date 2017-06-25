@@ -1,0 +1,20 @@
+Red Bright:
+Typical current = 10 mA
+Peak = 20 mA
+Typical voltage on 20mA = 2.1
+Max voltage on 20 mA = 2.8
+
+
+On Arduino I have to use GND
+As stated max current is 20mA and voltages are with that.
+Each output will be 5V.
+
+So I need to subtract from 5V the typical voltage of 2.1V
+
+Typical: 5V - 2.1V = 2.9V
+Max: 5V - 2.8V = 2.2V
+http://www.ohmslawcalculator.com/ohms-law-calculator
+
+R = V/I
+R Typical= 2.9V / 0.020 = 145 Ohm
+R Max = 2.2V / 0.020 = 110

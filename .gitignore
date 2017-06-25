@@ -1,0 +1,7 @@
+examples
+
+# VIM swap files
+*.sw*
+
+# Aparture build directories
+.build_ano
