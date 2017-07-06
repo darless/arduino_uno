@@ -1,6 +1,8 @@
 Temperature and Humidity Sensor
 ===============================
 
+http://playground.arduino.cc/main/DHT11Lib
+
 Requirements
 ------------
 
